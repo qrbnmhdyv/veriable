@@ -1,0 +1,68 @@
+Proqramda deyisenden istifade etmek ucun onu askar, yaxud qeyri-askar elan etmek –
+ identifikator menimsetmek ve tipini gostermek lazidir. Deyisenin tipi onun hansi mumkun 
+qiymetleri ala bileceyini ve onun uzerinde hansi emeliyyalarin aparila bileceyini mueyyen edir. 
+Fealiyyet sahelerine gore deyisenleri iki nove ayirirlar:
+
+Deyisen ozunde her hansi bir melumat saxlayir.Verilenin ne olduguna bagli bir
+ deyisen tipi secmek lazimdir.meslen:" int " tipinde bir deyisen teyin edsek, 
+ o ozunde ancaq tam ededler saxlaya bilecek cunki novunun tipi tamdir. 
+
+
+
+Riyazi opretorlar.
+byte 0 dan 255 e kimi olan reqemleri gostere bilir
+sbyte bu ise -128 den 127 qeder ola n reqemleri
+short -32,768 32,767 ye qeder olan reqemleri
+ushort0 dan 65535 e qeder olan reqemler
+ulong 0 to 18446744073709551615
+long  bu operatorlarda -9223372036854775808 to 9223372036854775807
+long
+bunlar yalniz adi hesablamari hel ede bilir meselen 5+4=9 amma kesr ve yaxud qaliqli birsey olsa bu onu hesablamir
+meselen 5/4 olduqda yalniz 1 goturecek kesr ededleri tapmaq ucun ise bu operatorlardan istidafe olunur
+float decimal double dan isdifade olunur.
+char operatorundan ise simvolari yazmaq ucun isdifade olunur.
+bool operatoru ise muqayise etmek ucun istifade olunur
+ 
+
+
+
+3) mentiqi operatorlar
+     + Toplama
+     - cixma
+     \   Bolme
+     *   Vurma
+     %   Modul 
+     **  quvvete yukseltme
+ 
+ 
+ 
+ 
+ 
+ 4) muqayise operatorlar 
+       &&     -   ve
+       ||     -   ve ya   
+        !     -   inkar
+meselen
+      a=10 b=5
+     (a!=0)&&(b==3)
+       true&&false 
+  
+ cavab; false
+  
+ 4) meselen:
+    a=20   c=2   e=30
+    b=5    d=4
+    
+   (a<=c)&&(b>=e)||(a!=c)&&(d==b)
+    false&&false || true&&false
+       false     ||   false
+  
+cavab      false
+
+!= bu operator her hansi bir cavabin eksini tapmaq ucundur.
+< > bu operatorlar ise boyuk ve yaxud kicik oldugunu bildirir.
+<= >= bunlarda boyuk beraber ve yaxud kicik beraber oldugunu bildiirir
+
+
+
+
